@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.header__container{
+    max-width: 50vw;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.title__main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    margin-top: 1rem;
+    border: 1px solid #000;
+}
+
+.information {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information__01 {
+    display: flex;
+    justify-content: center;
+}
+
+.number{
+    margin-right: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.e-mail {
+    margin-right: 2rem;
+}
+
+.information__02 {
+    display: flex;
+    justify-content: center;
+}
+
+.address {
+    margin-bottom: 0.5rem;
+}
+
+.information__03 {
+    display: flex;
+    justify-content: center;
+}
+
+.github {
+    margin-right: 1rem;
+}
+
+.link{
+    text-decoration: none;
+    color: blue;
+}
+
+.icon {
+    padding-right: 0.3rem;
+}
+
+.main__container {
+    max-width: 50vw; 
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.objective {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title__objective {
+    margin-bottom: 0.5rem;
+}
+
+.paragraph__objective {
+    width: 40vw;
+    text-align: justify;
+}
+
+.education {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title__education {
+    padding-top: 1rem;
+}
+
+.academic{
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.paragraph__academic{
+    text-align: center;
+}
+
+.experience {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title__experience {
+    padding-top: 1rem;
+}
+
+.professional__experience {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.function {
+    text-align: center;
+}
+
+.job {
+    width: 40vw;
+    text-align: center;
+    align-items: center;
+}
+
+.footer__container {
+    max-width: 50vw; 
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.title__skills {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+@media (max-width: 870px) {
+
+.information__01 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information__02 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information__03 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number {
+    margin-bottom: 0.5rem;
+}
+
+.e-mail {
+    margin-bottom: 0.5rem;
+}
+
+.age{
+    margin-bottom: 0.5rem;
+}
+
+.number {
+    margin-bottom: 0.5rem;
+}
+
+.address {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.github {
+    margin-bottom: 0.5rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.list__skills {
+    margin-bottom: 1rem;
+}
+
+}
